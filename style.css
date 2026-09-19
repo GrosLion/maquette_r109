@@ -1,0 +1,31 @@
+body {
+    background-color: #061e26;
+}
+
+/*mise en forme du texte avec une classe*/
+header {
+    background-color: #061e26;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.texte {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.reseaux {
+    display: flex;
+    gap: 20px;
+}
+
+.reseaux i {
+    color: white;
+    font-size:30px;
+}
+
+h1 {
+    justify-content: flex-start;
+}
