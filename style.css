@@ -2,6 +2,8 @@ body {
     background-color: #061e26;
 }
 
+
+
 /*mise en forme du texte avec une classe*/
 header {
     background-color: #061e26;
@@ -11,9 +13,16 @@ header {
     border-bottom: 1px solid white;
 }
 
-.texte {
-    font-family: "Montserrat", sans-serif;
+.name {
+    font-family: "Montserrat", serif;
     color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.texte {
+    font-family: "Yeseva One", serif;
+    color: white;
+    font-size: 50px;
 }
 
 .reseaux {
@@ -26,6 +35,16 @@ header {
     font-size:30px;
 }
 
-h1 {
-    justify-content: flex-start;
+.desc{
+    color: white;
+    font-size: 15px;
+}
+
+.intro{
+    width: 70%;
+    margin: 80px auto;
+}
+
+h2 span {
+    color: rgb(0, 218, 109);
 }
