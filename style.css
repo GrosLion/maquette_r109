@@ -48,3 +48,43 @@ header {
 h2 span {
     color: rgb(0, 218, 109);
 }
+
+.boutons{
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+.boutons button {
+    font-family: "Montserrat" ,serif;
+    text-transform: uppercase;
+    color: white;
+    background-color:transparent;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.boutons button.active {
+    background-color: rgb(0, 218, 109);
+    color: #061e26;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.image {   
+
+
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 6px;
+    padding: 20px 60px 60px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
